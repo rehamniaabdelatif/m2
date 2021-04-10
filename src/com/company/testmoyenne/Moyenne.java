@@ -61,8 +61,8 @@ public class Moyenne {
 
                 if (note.get(j+1) < note.get(j)){
                     swap = note.get(j);
-                    note.set(i, note.get(i+1));
-                    note.set(i+1, swap);
+                    note.set(j, note.get(j+1));
+                    note.set(j+1, swap);
                 }
 
             }
