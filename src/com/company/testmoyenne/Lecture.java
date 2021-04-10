@@ -24,5 +24,5 @@ public class Lecture {
         System.out.println("entrer un nom: ");
         return lire.next();
     }
-    
+
 }
