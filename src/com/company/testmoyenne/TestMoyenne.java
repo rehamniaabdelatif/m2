@@ -15,12 +15,10 @@ public class TestMoyenne {
             M2.ajoutNote(y);
         }
 
-        double m = M1.calculMoyenne();
-        System.out.println("la Moyenne est : "+ m);
         System.out.println("la Moyenne est : "+ M1.calculMoyenne() );
-        int A = M1.affichenombreDeNote();
+        int A = M1.afficheNombreDeNote();
         System.out.println("le nombre de note : " + A);
-        System.out.println("la Moyenne est : " + M1.affichenombreDeNote());
+        System.out.println(M1.maxNotes());
 
 
     }
