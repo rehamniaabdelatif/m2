@@ -41,7 +41,7 @@ public class Moyenne {
     }
 
 // start project from here
-    private ArrayList<Double> note;
+    private ArrayList<Double> note = new ArrayList();
 
     public double maxNotes(){
         Double maxNote = note.get(0);
